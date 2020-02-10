@@ -23,7 +23,7 @@ jobs:
       run: git submodule update --init --recursive
     - name: Kernel Configure
       run: |
-        ./build config name=CRUEL-V2-BTA8-NH \
+        ./build config name=CRUEL-V2-BTA8 \
                 +magisk                   \
                 +ttl                      \
                 +wireguard                \
